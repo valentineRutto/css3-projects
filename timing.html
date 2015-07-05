@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+    width: 100px;
+    height: 130px;
+    background-color: red;
+    font-weight: bold;
+    position: relative;
+  text-align: center;
+  font-family: Courier;
+  font-size: 120px;
+    animation: timing 5s infinite;
+}
+
+
+
+/* Standard syntax */
+#div1 {animation-timing-function: linear;   background-color: blue;}
+#div2 {animation-timing-function: ease;   background-color: aqua;}
+#div3 {animation-timing-function: ease-in;background-color:#ADD8E6}
+#div4 {animation-timing-function: ease-out;background-color:#FF00FF}
+#div5 {animation-timing-function: ease-in-out;background-color:#0000FF}
+
+
+
+
+@keyframes timing {
+    from {left: 0px;}
+    to {left: 300px;}
+}
+</style>
+</head>
+<body>
+
+<div id="div1">R</div>
+<div id="div2">U</div>
+<div id="div3">T</div>
+<div id="div4">T</div>
+<div id="div5">O</div>
+
+</body>
+</html>
