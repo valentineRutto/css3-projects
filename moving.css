@@ -1,0 +1,24 @@
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: #800080;
+    position: relative;
+  
+    animation-name: colors;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;    
+}
+
+
+
+
+@keyframes colors {
+    0%{background-color:#0000FF; left:0px; top:0px;}
+    25% {background-color:#00FFFF; left:200px; top:0px;}
+    50% {background-color:#ADD8E6; left:200px; top:200px;}
+    75%{background-color:#FF00FF; left:0px; top:200px;}
+    100% {background-color:#0000FF; left:0px; top:0px;}
+}
+
