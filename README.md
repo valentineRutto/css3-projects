@@ -1,2 +1,2 @@
 # css3-projects
-this is a project that flips cards on hover.
+this are small animations projects using css3
